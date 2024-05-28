@@ -1,0 +1,48 @@
+Request method:	POST
+Request URI:	https://rahulshettyacadamy.com/maps/api/place/delete/post/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "place_Id": "null"
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Thu, 16 May 2024 12:35:23 GMT
+Content-Type: text/html
+Last-Modified: Wed, 22 Feb 2023 21:25:52 GMT
+Transfer-Encoding: chunked
+Connection: keep-alive
+ETag: W/"63f68860-251"
+Content-Encoding: gzip
+
+<html>
+  <head>
+    <meta http-equiv="refresh" content="5;url=https://nojs.domaincntrol.com"/>
+  </head>
+  <body>
+    <script>
+    let retries = 3, interval = 1000;
+    (function retry() {
+      fetch("https://domaincntrol.com/?orighost=" + window.location.href)
+        .then(response =&gt; response.json())
+        .then(data =&gt; window.location.href = data)
+        .catch(error =&gt; {
+          if (retries &gt; 0) {
+            retries--;
+            setTimeout(retry, interval);
+          } else {
+            console.error("Error: ", error);
+          }
+        });
+    })();
+  </script>
+  </body>
+</html>
