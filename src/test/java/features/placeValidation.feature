@@ -13,9 +13,10 @@ Feature: Validating Place API's
    Examples: 
     |name| language| phonenumber|
     |AAhouse|English|123-890-899|
+    |AAhouse|Swedish|123-890-900|
     
     
-@deletePlac
+@deletePlaces
     
     
     Scenario:verify that the place is deleted successfully using DeletePlaceAPI
